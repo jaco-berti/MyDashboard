@@ -1,0 +1,70 @@
+:root
+{
+    --top-bar-color: #1D2327;
+    --primary: #2271B1;
+}
+
+#topBar
+{
+    display: flex;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 32px;
+    padding: 0 3px;
+
+    background-color: var(--top-bar-color);
+}
+
+#topBar > a
+{
+    margin-left: 20px;
+}
+
+#topBar a:hover
+{
+    color: #589ee9 !important;
+    text-decoration: none;
+}
+
+
+#topBarBody
+{
+    background-color: transparent;
+    height: 32px;
+}
+
+#drop-area {
+    border: 2px dashed var(--primary);
+    border-radius: 10px;
+    padding: 40px;
+    color: #888;
+    width: 400px;
+    background: #f8f9fa;
+    transition: background 0.2s;
+}
+#drop-area.dragover {
+    background: #e3f2fd;
+    color: #007bff;
+}
+pre {
+    text-align: left;
+    background: #222;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+#dashboard
+{
+    display: none;
+}
+
+#addElement
+{
+    display: none;
+}

@@ -1,0 +1,19 @@
+{
+	"products":
+    [
+        {
+            "id": "0",
+            "name": "pane",
+            "prezzo": "3.34",
+            "valuta": "euro",
+            "sconto": false
+        },
+        {
+            "id": "1",
+            "name": "cioccolato",
+            "prezzo": "2,84",
+            "valuta": "euro",
+            "sconto": true
+        }
+    ]
+}

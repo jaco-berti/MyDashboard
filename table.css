@@ -1,0 +1,84 @@
+:root
+{
+    --text-primary: #2C3338;
+    --text-primary-hover: #2271B1;
+    --text-secondary: #2271B1;
+    --text-secondary-hover: #135e96;
+    --table-dark: #F6F7F7;
+    --table-light: #FFFFFF;
+    --table-border: #C3C4C7;
+}
+
+table
+{
+    width: 100%;
+}
+
+#table
+{
+    margin-top: 20px;
+}
+
+p
+{
+    margin: 0;
+}
+
+thead, tfoot tr
+{
+    border: 1px solid var(--table-border);
+}
+
+tbody tr
+{
+    border-left: 1px solid var(--table-border);
+    border-right: 1px solid var(--table-border);
+}
+
+td
+{
+    padding: 8px;
+    height: 57px;
+    vertical-align: top;
+}
+
+th
+{
+    padding: 8px;
+}
+
+table th p
+{
+    font-weight: 600 !important;
+    font-size: 14px;
+    color: var(--text-primary) !important;
+}
+
+table th a
+{
+    font-weight: 600 !important;
+    font-size: 14px;
+    color: var(--text-secondary) !important;
+}
+
+table p
+{
+    font-size: 13px;
+    color: var(--text-primary) !important;
+}
+
+table a
+{
+    font-size: 13px;
+    color: var(--text-secondary) !important;
+}
+
+.tr-light
+{
+    background-color: var(--table-light);
+}
+
+.tr-dark
+{
+    background-color: var(--table-dark);
+}
